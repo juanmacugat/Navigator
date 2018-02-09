@@ -1,0 +1,404 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Select Satellite</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<script src="js/vendor/modernizr.js"></script>
+
+</head>
+
+
+<body>
+
+	<!-- wrap-full -->
+	<div id="back-image">
+
+		<!-- wrap-header -->
+
+			<div class="large-12 small-12 columns no-padding">
+				<header>
+					
+
+					<div class="large-4 medium-3 small-12 columns">
+
+						<div class="large-12 medium-12 small-6 columns">
+							<img src="img/logo-space-os.png" style="height: 44px;"class="img-logo">
+						</div>
+
+						<!-- User show small -->
+						<div class="small-6 columns show-for-small-only">
+						 <nav class="top-bar" data-topbar role="navigation">
+							<section class="top-bar-section">
+								<!-- Right Nav Section -->
+								<ul>
+
+									<li class="has-dropdown li-user">
+										<a href="#" id="user_name" class="a-user">johnny</a>
+
+										<ul class="dropdown">
+											<li>
+												<a id="logout" href="#">Log Out</a>
+											</li>
+										</ul>
+									</li>
+
+								</ul>
+
+							</section>
+						  </nav>
+						</div>
+						<!-- End User show small -->
+					</div>
+
+
+					<div class="large-6 medium-6 small-12 columns">
+						<nav class="top-bar nav-sat" data-topbar role="navigation">
+
+							<section class="top-bar-section">
+								<ul class="left small-center">
+									<li class="active sat-li">
+										<a href="#" class="sat-a">Satellite</a>
+									</li>
+									<li class="inactive sat-li-inactive">
+										<a href="#" class="sat-a-in">Area</a>
+									</li>
+								</ul>
+							</section>
+
+						</nav>
+					</div>
+
+
+
+					<div class="large-2 medium-3 small-12 columns hide-for-small-only ">
+						<nav class="top-bar" data-topbar role="navigation">
+							<section class="top-bar-section">
+								<!-- Right Nav Section -->
+								<ul>
+
+									<li class="has-dropdown right">
+									<a id="user_name" href="#"	class="a-user">current user</a>
+
+										<ul class="dropdown">
+											<li>
+												<a href="#">Log Out</a>
+											</li>
+										</ul>
+									</li>
+
+								</ul>
+
+							</section>
+						  </nav>
+					</div>
+
+				</header>
+
+			</div>
+
+		<!-- end header -->
+
+		<!-- wrap-select-maps -->
+
+		<div class="large-12 medium-12 small-12 columns no-padding black-back">
+			<h2 class="h2-select-maps">Select Satellites</h2>
+		</div>
+
+
+		<div class="">
+			<!-- search - dropdown -->
+			<div class="large-12 medium-12 small-12 columns no-padding black-back">
+				<div class="large-8 small-12 columns">
+
+
+					<form class="large-5 medium-6 small-12 columns">
+					  <div class="row">
+					    <div class="large-12 ">
+					      <label>
+					        <select>
+					          <option id="" class="satellite-type" value="">All types</option>
+					          <option id="Weather" class="satellite-type" value="Weather">Wheather</option>
+					          <option id="Cubesats" class="satellite-type" value="Cubesats">Cubesats</option>
+					          <option id="Navigation" class="satellite-type"value="Navigation">Navigation</option>
+					          <option  id="Search & Rescue" class="satellite-type"  value="Search & Rescue">Search & Rescue </option>
+					          <option id="Earth Resources" class="satellite-type" value="Earth Resources">Earth Resources </option>
+					          <option id="Disaster Monitoring" class="satellite-type" value="Disaster Monitoring">Disaster Monitoring </option>
+					        </select>
+					      </label>
+					    </div>
+					  </div>
+					</form>
+
+
+
+					<!-- dropdown -
+					<div class="large-4 columns">
+						<button href="#" data-dropdown="drop1" aria-controls="drop1"
+							aria-expanded="false"
+							class="button dropdown expand drop-sat-select">Filter by
+							Type</button>
+						<br>
+						<ul id="drop1" data-dropdown-content class="f-dropdown"
+							aria-hidden="true" tabindex="-1">
+							<li><a id="Weather" class="satellite-type" href="#">Wheather</a></li>
+							<li><a id="Cubesats" class="satellite-type" href="#">Cubesats</a></li>
+							<li><a id="Navigation" class="satellite-type" href="#">Navigation</a></li>
+							<li><a id="Search & Rescue" class="satellite-type" href="#">Search
+									& Rescue </a></li>
+							<li><a id="Earth Resources" class="satellite-type" href="#">Earth
+									Resources</a></li>
+							<li><a id="Disaster Monitoring" class="satellite-type"
+								href="#">Disaster Monitoring</a></li>
+						</ul>
+					</div>
+					- end dropdown -->
+
+					<!-- search -->
+					<div class="large-6 medium-6 small-12 columns">
+						<div class="collapse">
+							<div class="small-10 columns no-padding">
+								<input id="filter-satellites" class="search-input" type="text"
+									placeholder="Search">
+							</div>
+							<div class="small-2 columns no-padding">
+								<a href="#" class="button postfix search-maps-lupa"></a>
+							</div>
+						</div>
+					</div>
+					<!-- end search -->
+
+				</div>
+			</div>
+			<!-- end search - dropdown -->
+		</div>
+
+		<!-- wrap-imgs-maps -->
+		<div class="">
+			<div class="large-12 columns">
+				<ul id="satellite-list" class="inline-list scroll-h">
+
+					<li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+
+					<li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+				    <li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+				    <li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+				    <li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+				    <li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+				    <li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+				    <li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+				    <li class="no-float">
+						<a href="#" style="width: 317px;"> 
+							<img src="img/map-select-img.jpg"> 
+
+							<img src="img/seenbyme.svg" class="sat-photo">
+							<h3 class="foot-sat">6 km</h3>
+							<h2 class="sat-name">
+								lorem<br>Ipsum Dolor
+							</h2>
+					    </a>
+				    </li>
+
+		</div>
+		<!-- end wrap-imgs-maps -->
+		<!-- end wrap-select-maps -->
+
+	</div>
+	<!-- end wrap-full -->
+
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/foundation/foundation.reveal.js"></script>
+
+	<div id="myModal" class="reveal-modal" data-reveal
+		aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+		<h2 id="modalTitle">Awesome. I have it.</h2>
+		<button id="btn-track-satellite">YES</button>
+		<button id="btn-close-modal">NO</button>
+
+		<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+	</div>
+
+	<script>
+		function load_satellites(satellites) {
+			$("#satellite-list").empty();
+			$
+					.each(
+							satellites.data,
+							function(index, satellite) {
+								var satellite_html = '<li class="no-float"><a href="#" style="width: 317px;"> '
+										+ '<img data-reveal-id="myModal" id='+ satellite.id + ' src="img/map-select-img.jpg" style="width: 317px; height: 508px;" '
+										+ 'class=""> <img src="img/icon-sat-img.png" '
+										+ 'style="width: 80px; height: 80px;" class="sat-photo"> '
+										+ '<h3 class="foot-sat">6 km</h3> '
+										+ '<h2 class="sat-name">'
+										+ satellite.id
+										+ '<br>'
+										+ satellite.name + '</h2></a></li>';
+
+								$("#satellite-list").append(satellite_html);
+
+								$("#" + satellite.id)
+										.click(
+												function() {
+													window.track_satellite = satellite.id;
+													$("#modalTitle")
+															.text(
+																	"Do you want to follow "
+																			+ satellite.name
+																			+ " ?");
+												})
+							})
+		}
+		
+		function init_user_name(){
+			
+			$.get("user").success(function(data){
+				alert(data);
+			     $("#user_name").text(data);
+			  });
+			
+			
+			
+			
+		}
+		
+		$(document)
+				.ready(
+						function() {
+							
+							init_user_name();
+							
+							$("#btn-close-modal").click(function() {
+								$('#myModal').foundation('reveal', 'close');
+							})
+
+							$("#btn-track-satellite")
+									.click(
+											function() {
+												window.location = "watch_satellites.html?track="
+														+ window.track_satellite;
+											});
+
+							$.getJSON("/satellites", load_satellites);
+
+							$("#filter-satellites")
+									.change(
+											function() {
+												var sat_type = ""
+												if (typeof window.selected_type != "undefined") {
+													sat_type = "&type="
+															+ window.selected_type;
+												}
+												$.getJSON(
+														"/satellites?search="
+																+ this.value
+																+ sat_type,
+														load_satellites);
+
+											});
+
+							$(".satellite-type")
+									.click(
+											function() {
+												var search = "";
+												window.selected_type = this.id;
+
+												if (typeof window.selected_type != "undefined") {
+													search = "&search="
+															+ $(
+																	"#filter-satellites")
+																	.val();
+												}
+												$.getJSON("/satellites?type="
+														+ window.selected_type
+														+ search,
+														load_satellites);
+											});
+						});
+
+		$(document).foundation();
+	</script>
+</body>
+</html>
